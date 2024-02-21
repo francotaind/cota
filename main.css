@@ -1,0 +1,57 @@
+.body{
+    background-color: azure;
+}
+
+.header{
+    
+    text-align: center;
+    background: #FFFFFF;
+    margin: 0em auto;
+    padding: 30px;
+    width: 50em;
+    border: thin solid;
+    border-color: #DDDACF #CCC8B8 #BBB59F;
+    box-shadow: 0 0.1em 0.3em #CCC8B8;
+    border-bottom-right-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.second_div{
+    background: #FFFFFF;
+    margin: 1.5em auto;
+    padding: 30px;
+    width: 50em;
+    border: thin solid;
+    border-color: #DDDACF #CCC8B8 #BBB59F;
+    box-shadow: 0 0.1em 0.3em #CCC8B8;
+    border-radius: 0.5em;
+}
+
+
+.general{
+    display: flex;
+    flex-direction: column;
+}
+
+.third{
+    text-align: center;
+    background: #FFFFFF;
+    margin: 1.5em auto;
+    padding: 30px;
+    width: 50em;
+    border: thin solid;
+    border-color: #DDDACF #CCC8B8 #BBB59F;
+    box-shadow: 0 0.1em 0.3em #CCC8B8;
+    border-radius: 0.5em;
+}
+.fourth{
+    position: fixed; /* Stick the footer to the bottom */
+    bottom: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
